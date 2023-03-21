@@ -1,0 +1,33 @@
+.user-style {
+    text-align: center;
+    color: slategrey;
+    padding: 40px;
+}
+
+.btn-style {
+    border-radius: 20px;
+    background-color: blue;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 12px 25px 12px 25px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+.example-card {
+    max-width: 400px;
+  margin-bottom: 8px;
+  img {
+    margin-left: 30px;
+  }
+}
+
+.title-alignment {
+    margin-left: -25px;
+    margin-top: 30px;
+}

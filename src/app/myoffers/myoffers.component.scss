@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+.example-card {
+    max-width: 400px;
+  margin-bottom: 8px;
+  img {
+    margin-left: 90px;
+  }
+}
+
+.title-alignment {
+    margin-left: -25px;
+    margin-top: 30px;
+}
+
+mat-card-header{
+    margin-left: 0px;
+}

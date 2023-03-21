@@ -1,0 +1,53 @@
+example-spacer {
+    flex: 1 1 auto;
+  }
+
+  span {
+    justify-content: center;
+  }
+
+  .icon-style {
+    padding: 0px 19px 0px 10px;
+  }
+
+  .example-container {
+    margin:0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .mat-sidenav {
+    width: 250px;
+    background-color:rgb(69, 124, 211);
+    position: fixed;
+  }
+  
+  .sidenav-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidenav-header {
+    span {
+        float: right;
+        padding: 15px;
+        font-size: 35px;
+        color: #fff
+    }
+  }
+  
+  footer {
+    background-color: #e0e;
+    height:150px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+
+.mat-toolbar.mat-primary {
+    background: #3f51b5;
+    color: #fff;
+    justify-content: center;
+}

@@ -1,0 +1,26 @@
+<mat-sidenav-container>
+    <mat-sidenav #sidenav class="mat-elevation-z10" mode="over">
+        <div class="sidenav-header">
+          <span>
+            <i class="material-icons" (click)="sidenav.close()">close</i>
+          </span>
+        </div>
+          <ul class="nav">
+            <li routerLinkActive="active" *ngFor="let menuItem of menuItems" class="{{menuItem.class}} nav-item">
+                <span class="nav-link" [routerLink]="[menuItem?.path]">
+                    <i class="material-icons">{{menuItem.icon}}</i>
+                    <p>{{menuItem.title}}</p>
+                </span>
+            </li>
+        </ul>
+    </mat-sidenav>
+    <mat-sidenav-content class="sidenav-content">
+        <mat-toolbar color="primary">
+            <mat-icon class="icon-style" (click)="sidenav.toggle()">menu</mat-icon>
+          <span>{{headerTitle}}</span>
+          <span class="example-spacer"></span>
+            <mat-icon class="icon-style">favorite</mat-icon>
+            <mat-icon class="icon-style">share</mat-icon>
+        </mat-toolbar>
+    </mat-sidenav-content>
+</mat-sidenav-container>
